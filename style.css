@@ -6,12 +6,20 @@ body {
   background-color: #FFFFF;
 }
 
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
 nav { 
   background-color: #66CDAA;
   padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.menu nav ul {
+nav ul {
   display: flex;
   gap: 16px;
   list-style: none;
@@ -19,7 +27,7 @@ nav {
   margin: 0;
 }
 
-.menu nav a {
+nav a {
   display: block;
   padding: 12px 20px; 
   border-radius: 999px;
@@ -28,9 +36,17 @@ nav {
   font-weight: 600;
 }
 
-.menu nav a:hover, nav a.active {
+nav a:hover, nav a.active {
   background: #66CDAA;
   color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
 
 .page-content {
