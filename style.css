@@ -33,12 +33,6 @@ nav a:hover, nav a.active {
   color: #fff;
 }
 
-main {
-  max-width: 720px;
-  margin: 48px auto;
-  padding: 0 24px;
-}
-
 .page-content {
   padding: 20px;
 }
